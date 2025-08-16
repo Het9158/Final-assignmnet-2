@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hetkumar Patel - Portfolio">
+    <meta name="author" content="Hetkumar Patel">
+
+    <title> Bhavneet Singh - Portfolio</title>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/gt_favicon.png') }}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <!-- Icon font -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <!--[if lt IE 9]> <script src="{{ url_for('static', filename='js/html5shiv.js') }}"></script> <![endif]-->
+</head>
+<body>
+
+<header id="header">
+    <div id="head" class="parallax" parallax-speed="1">
+        <h1 id="logo" class="text-center">
+            <img class="img-circle" src="{{ url_for('static', filename='images/Hetkumar.jpg') }}">
+            <span class="title"> Hetkumar Patel</span>
+            <span class="tagline">Detail-oriented Software Developer | Banking & Insurance Expert</span>
+        </h1>
+    </div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#technical-skills">Technical Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>
+
+<main id="main">
+
+    <div class="container">
+
+        <div class="row topspace">
+            <div class="col-sm-8 col-sm-offset-2">
+
+                <section id="about" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">About Me</h1>
+                    </header>
+                    <div class="entry-content">
+                        <p>Detail-oriented Software Developer with six years of experience in the Banking and Insurance industry, skilled in web application development, database management, and problem-solving. Proven track record of enhancing system performance, streamlining processes, and delivering scalable solutions. Adept at designing and optimizing software to drive business efficiency and support organizational growth.</p>
+                    </div>
+                </section><!-- #about -->
+
+                <section id="technical-skills" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Technical Skills</h1>
+                    </header>
+                    <div class="entry-content">
+                        <ul class="technical-skills-list">
+                            <li><strong>Programming Languages:</strong> Java, Python, JAVA , HTML</li>
+                            <li><strong>Testing Tools:</strong> Selenium, JIRA, Jenkins, Cucumber</li>
+                            <li><strong>API Testing:</strong> REST, SOAP, Custom Made API Testing Framework (Java JAXB)</li>
+                            <li><strong>Data Visualization:</strong> Tableau, R Basics</li>
+                        </ul>
+                    </div>
+                </section><!-- #technical-skills -->
+
+                <section id="experience" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Experience</h1>
+                    </header>
+                    <div class="entry-content">
+  <h3>Software Developer at Appbit's Technology (07/2023 – 3/2024)</h3>
+  <p>Software Developer</p>
+  <ul>
+    <li>Developed and optimized web applications, improving performance and user experience, which reduced load time by 30% and boosted customer engagement.</li>
+    <li>Implemented personalized recommendation features based on client business needs, leading to improved outcomes and higher customer retention rates.</li>
+    <li>Collaborated with cross-functional teams to address system inefficiencies, resulting in an 18% reduction in operational costs.</li>
+  </ul>
+
+  <h3>IndusInd Bank (04/2024 – 012/2024)</h3>
+  <p>Software Developer</p>
+  <ul>
+    <li>Built and maintained client management software to track leads and sales data, increasing process efficiency by 28%.</li>
+    <li>Developed reporting dashboards that provided real-time insights to business teams, contributing to a 27% increase in revenue.</li>
+    <li>Implemented secure authentication and role-based access features, strengthening application security and compliance.</li>
+  </ul>
+</div>
+
+
+                </section><!-- #experience -->
+
+                <section id="education" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Education</h1>
+                    </header>
+                    <div class="entry-content">
+                        <h3>Durham College (2024-Present)</h3>
+                        <p>Post Graduate Certificate in Artificial Intelligence Analysis, Design, and Implementation</p>
+
+                        <h3>GLS University (2020-2023)</h3>
+                        <p>Bachelor of Computer Application</p>
+                    </div>
+                </section><!-- #education -->
+
+                <section id="certifications" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Certifications</h1>
+                    </header>
+                    <div class="entry-content">
+                        <ul>
+                            <li>Java Programming (2022)</li>
+                        </ul>
+                    </div>
+                </section><!-- #certifications -->
+
+                <section id="awards" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Awards</h1>
+                    </header>
+                    <div class="entry-content">                        
+                        <h3>Employee of the Month</h3>
+                        <p>Awarded by AppBit's Technology for exceptional performance in customer service.</p>
+                    </div>
+                </section><!-- #awards -->
+
+            </div>
+        </div> <!-- /row post  -->
+
+    </div>    <!-- /container -->
+
+</main>
+
+<footer id="footer" class="topspace">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 widget">
+                <h3 class="widget-title">Contact</h3>
+                <div class="widget-body">
+                    <p><a href="mailto:yourname@gmail.com">het9158@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="col-md-6 widget">
+                <h3 class="widget-title">Follow Me</h3>
+                <div class="widget-body">
+                    <p class="follow-me-icons">
+                        <a href="https://www.linkedin.com/in/patel-het-877644369/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/Het9158" target="_blank"><i class="fa fa-github"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div> <!-- /row of widgets -->
+    </div>
+</footer>
+
+<footer id="underfooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 widget">
+                <div class="widget-body">
+                    <p class="text-right">&copy; 2025 Your Name. All rights reserved.</p>
+                </div>
+            </div>
+        </div> <!-- /row of widgets -->
+    </div>
+</footer>
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
